@@ -22,7 +22,7 @@ then
 
 exit 1
 
-_else _
+else
 
 touch /tmp/synctorrent.lock
 
