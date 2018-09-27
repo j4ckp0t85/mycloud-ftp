@@ -5,7 +5,9 @@ Why: create a sync script from a remote ftp over ssl source and a local folder a
 
 I own a mirror gen2.
 
-#Begin - install the Debian chroot environment
+Begin - install the Debian chroot environment
+
+
 1- download the chrooted debian app
 
 2- set the chroot environment. on the mirror gen2 the path is /mnt/HD/HD_a2/Nas_Prog/Debian/chroot
