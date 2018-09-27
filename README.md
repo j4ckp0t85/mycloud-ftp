@@ -1,7 +1,7 @@
 # mycloud-ftp
 Custom script based on Debian environment 
 
-Why: create a sync script from a remote ftp over ssl source and a local folder as destination.
+Why: create a sync script from a remote ftp over ssl source and a local folder as destination using lftp (https://lftp.yar.ru/).
 
 I own a mirror gen2.
 
@@ -19,7 +19,7 @@ libisc-export95_9.9.5.dfsg-9+deb8u6_armhf
 libisccfg-export90_9.9.5.dfsg-9+deb8u6_armhf
 you can (finally!) install lftp via apt-get install
 
-#the script
+# the script
 
 Some explanations first:
 
