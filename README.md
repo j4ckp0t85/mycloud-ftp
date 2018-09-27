@@ -13,10 +13,9 @@ I own a mirror gen2.
 3-lftp depends on some packages that are not available in the repository. 
 i have grabbed them from these repository and installed manually using dpkg http://mwn-cdc.arsip.or.id/debian-security/pool/updates/main/b/bind9/3
 
-libdns-export100_9.9.5.dfsg-9+deb8u6_armhf
-libirs-export91_9.9.5.dfsg-9+deb8u6_armhf
-libisc-export95_9.9.5.dfsg-9+deb8u6_armhf
-libisccfg-export90_9.9.5.dfsg-9+deb8u6_armhf
+libdns-export100_9.9.5.dfsg-9+deb8u6_armhf, libirs-export91_9.9.5.dfsg-9+deb8u6_armhf, libisc-export95_9.9.5.dfsg-9+deb8u6_armhf, libisccfg-export90_9.9.5.dfsg-9+deb8u6_armhf
+
+
 you can (finally!) install lftp via apt-get install
 
 # the script
