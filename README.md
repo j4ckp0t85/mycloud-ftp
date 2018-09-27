@@ -6,7 +6,7 @@ Custom script based on Debian environment
 Why: create a sync script from a remote ftp over ssl source and a local folder as destination using lftp (https://lftp.yar.ru/). 
 The built-in solution doesn't work for me.
 
-Wd my cloud gen2 software is based on busybox, so we need a parallel environment and shell to install it and make it permanent.
+Wd my cloud gen2 software is based on busybox, so we need a parallel environment and shell to install it, call it when needed and make changes permanent.
 
 I own a mirror gen2.
 
