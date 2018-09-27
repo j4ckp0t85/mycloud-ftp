@@ -40,7 +40,7 @@ set ftp:ssl-protect-data true
 
 set ftp:ssl-protect-list true
 
-set net:connection-limit 10 _
+set net:connection-limit 10
 
 set mirror:use-pget-n 10
 
