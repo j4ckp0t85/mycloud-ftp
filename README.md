@@ -1,3 +1,5 @@
+You do it at your own risk, remember it.
+
 # mycloud-ftp
 Custom script based on Debian environment 
 
@@ -8,7 +10,7 @@ I own a mirror gen2.
 Begin - install the Debian chroot environment
 
 
-1- download the chrooted debian app
+1- download the chrooted debian app (credits for this app goes to Fox_exe)
 
 2- set the chroot environment. on the mirror gen2 the path is /mnt/HD/HD_a2/Nas_Prog/Debian/chroot
 
