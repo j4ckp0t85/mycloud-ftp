@@ -3,7 +3,10 @@ You do it at your own risk, remember it.
 # mycloud-ftp
 Custom script based on Debian environment 
 
-Why: create a sync script from a remote ftp over ssl source and a local folder as destination using lftp (https://lftp.yar.ru/).
+Why: create a sync script from a remote ftp over ssl source and a local folder as destination using lftp (https://lftp.yar.ru/). 
+The built-in solution doesn't work for me.
+
+Wd my cloud gen2 software is based on busybox, so we need a parallel environment and shell to install it and make it permanent.
 
 I own a mirror gen2.
 
@@ -15,7 +18,7 @@ Begin - install the Debian chroot environment
 2- set the chroot environment. on the mirror gen2 the path is /mnt/HD/HD_a2/Nas_Prog/Debian/chroot
 
 3-lftp depends on some packages that are not available in the repository. 
-i have grabbed them from these repository and installed manually using dpkg http://mwn-cdc.arsip.or.id/debian-security/pool/updates/main/b/bind9/3
+i have grabbed them from these repository and installed manually using dpkg http://mwn-cdc.arsip.or.id/debian-security/pool/updates/main/b/bind9/
 
 libdns-export100_9.9.5.dfsg-9+deb8u6_armhf, libirs-export91_9.9.5.dfsg-9+deb8u6_armhf, libisc-export95_9.9.5.dfsg-9+deb8u6_armhf, libisccfg-export90_9.9.5.dfsg-9+deb8u6_armhf
 
