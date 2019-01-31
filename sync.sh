@@ -28,6 +28,8 @@ touch /tmp/synctorrent.lock
 
 lftp<<UPTOHERE
 
+set ftp:charset utf8
+
 set net:limit-total-rate 0:0
 
 set net:limit-total-max 0
@@ -55,6 +57,8 @@ set ssl:verify-certificate off
 set net:connection-takeover true
 
 open -p <port> -u <username>,<password> <address>
+
+set file:charset utf8
 
 glob -d mirror --newer-than=now-7days -c --loop --only-missing </remote/ftp/folder> <“/local/nas/folder”>
 
