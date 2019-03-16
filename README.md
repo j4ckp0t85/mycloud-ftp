@@ -39,5 +39,4 @@ search in the wd community forum how to create a cron job. on my nas the script 
 - synctorrent.lock is a simple file used to check wether there is already a download activity. this file is created in /tmp folder, so that if there is a power interruption the sync will not be locked for no reason
 - the script check the files/folders present in a remote ftp over ssl folder (last 7 days)
 - segmented download, no parallel file download (i have encountered issues using it)
-- notify.sh was a script related to an android app (push notification)
 - now supporting resume for incompleted download: while downloading, lftp create and update a file called <filename>.lftp-pget-status that register the download progress (in this script, in multiple chunks). the script search if this file exist and then it first call pget passing the same number of chunks to resume it from the last points saved. notice that this approach work in this environment avoiding this command file:use-fallocate true

@@ -106,6 +106,6 @@ EOF
 
 else
 
-bash /mnt/HD/HD_a2/script/notify.sh “Sync cancelled (free some space on the nas!)“
+/usr/sbin/send_gen_mail -m "Free some space on the nas to resume sync (less than 30GB available)" -s "Sync job cancelled" -r "dest_email@email.com"
 
 fi
